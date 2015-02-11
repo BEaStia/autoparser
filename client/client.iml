@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="Flex" version="4">
+  <component name="FlexBuildConfigurationManager" active="Unnamed">
+    <configurations>
+      <configuration target-platform="Mobile" pure-as="true" main-class="Main" output-file="Main.swf" output-folder="$MODULE_DIR$/out">
+        <dependencies>
+          <entries>
+            <entry library-id="18464e19-d505-4546-851d-d7b24676f5d2">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-id="5938547c-655d-4dba-813f-cc013c53bf8a">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-id="7c14f3ae-8d52-4b25-97fa-534c39ef8eb6">
+              <dependency linkage="Merged" />
+            </entry>
+          </entries>
+          <sdk name="AIRSDK_Compiler" />
+        </dependencies>
+        <compiler-options>
+          <option name="resourceFilesMode" value="None" />
+        </compiler-options>
+        <packaging-air-desktop />
+        <packaging-android enabled="true" use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/Main-app.xml" package-file-name="SQ" />
+        <packaging-ios enabled="true" package-file-name="Unnamed" />
+      </configuration>
+    </configurations>
+    <compiler-options />
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="AIRSDK_Compiler" jdkType="Flex SDK Type (new)" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" exported="" name="temp" level="project" />
+    <orderEntry type="library" exported="" name="MinimalMobileTheme" level="project" />
+    <orderEntry type="library" exported="" name="MetalWorksMobileTheme" level="project" />
+    <orderEntry type="library" exported="" name="MetalWorksDesktopTheme" level="project" />
+    <orderEntry type="library" exported="" name="MinimalDesktopTheme" level="project" />
+    <orderEntry type="library" exported="" name="AeonDesktopTheme" level="project" />
+    <orderEntry type="library" exported="" name="lib" level="project" />
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="18464e19-d505-4546-851d-d7b24676f5d2" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/feathers.swc!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="5938547c-655d-4dba-813f-cc013c53bf8a" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/starling.swc!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="7c14f3ae-8d52-4b25-97fa-534c39ef8eb6" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/themes/MetalWorksMobileTheme/swc/MetalWorksMobileTheme.swc!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>

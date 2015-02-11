@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="MetalWorksMobileTheme">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/client/themes/MetalWorksMobileTheme/swc/MetalWorksMobileTheme.swc!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

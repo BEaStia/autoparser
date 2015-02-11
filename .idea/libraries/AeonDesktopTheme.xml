@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="AeonDesktopTheme">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/client/themes/AeonDesktopTheme/swc/AeonDesktopTheme.swc!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

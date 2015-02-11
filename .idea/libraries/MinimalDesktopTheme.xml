@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="MinimalDesktopTheme">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/client/themes/MinimalDesktopTheme/swc/MinimalDesktopTheme.swc!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

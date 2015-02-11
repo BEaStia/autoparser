@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="MinimalMobileTheme">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/client/themes/MinimalMobileTheme/swc/MinimalMobileTheme.swc!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
