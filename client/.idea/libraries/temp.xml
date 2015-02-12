@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="temp">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/production/temp/feathers.swc!/" />
+      <root url="jar://$PROJECT_DIR$/out/production/temp/starling.swc!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
