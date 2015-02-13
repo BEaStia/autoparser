@@ -7,19 +7,7 @@ require 'em-http-request'
 require 'json'
 require 'thin'
 require 'chronic'
-require 'parser'
-
-class Auto  < ActiveRecord::Base
-end
-
-class Model < ActiveRecord::Base
-  belongs_to :maker
-end
-
-class Maker < ActiveRecord::Base
-end
-
-
+require './parser'
 
 # class AvitoRuParser<BaseParser
 #   def initialize
@@ -132,34 +120,6 @@ end
 #     end
 #   end
 #
-#   def load_makers
-#     @url = "http://auto.ru/#all"
-#     page = Nokogiri.HTML(open(@url))
-#     makers = page.css('.marks-col-a').map{|item|
-#       {item:item.text.to_s.lstrip.rstrip, autoruname: item['href'].gsub('/cars/','').gsub('/all/','')}
-#     }.sort_by{|item| item['item']}.uniq
-#     makers.each{|maker|
-#       if Maker.find_by(maker: maker['item']).nil?
-#         _maker = Maker.create! maker: maker[:item], autoru: 1, autoruname: maker[:autoruname]
-#       end
-#     }
-#     makers
-#   end
-#
-#   def load_models maker
-#     _maker = maker.autoruname
-#     maker_id = maker.id
-#     @url = "http://auto.ru/cars/#{maker.autoruname}/all"
-#     page = Nokogiri.HTML(open(@url))
-#     models = page.css('.showcase-modify-title-link').map {|item|
-#     {item: item.text.to_s.lstrip.rstrip, autoruname: item['href'].gsub('/cars/','').gsub('/all/','').gsub(maker.autoruname+'/','')}.sort_by{|item| item[:item]}
-#     models.each{|model|
-#       if Model.find_by(maker_id: maker_id, model: model[:item]).nil?
-#         _model = Model.create! maker_id: maker_id, model: model[:item], autoru: 1, autoruname: model[:autoruname]
-#       end
-#     }
-#   end
-# end
 #
 # def run(opts)
 #   EM.run do
@@ -182,183 +142,190 @@ end
 #   end
 # end
 #
-class ParserApp < Sinatra::Base
+# class ParserApp < Sinatra::Base
+#
+#   register Sinatra::ActiveRecordExtension
+#
+#
+#   configure do
+#     set :threaded, false
+#     set :database, {adapter: "sqlite3", database: "autos.sqlite3"}
+#     set :views, 'views'
+#   end
+#
+#   get '/' do
+#     'hello'
+#   end
+#   #
+#   # # Request runs on the reactor thread (with threaded set to false)
+#   # get '/hello' do
+#   #   'Hello World'
+#   # end
+#   #
+#   # # Request runs on the reactor thread (with threaded set to false)
+#   # # and returns immediately. The deferred task does not delay the
+#   # # response from the web-service.
+#   # get '/delayed-hello' do
+#   #   EM.defer do
+#   #     sleep 5
+#   #   end
+#   #   'I\'m doing work in the background, but I am still free to take requests'
+#   # end
+#   #
+#   # get '/load/auto/:maker/:model' do
+#   #   _parser = AutoRuParser.new
+#   #   _parser.maker = params[:maker]
+#   #   _parser.model = params[:model]
+#   #   cars = []
+#   #
+#   #   worked_count = 0
+#   #     (1..100).each do |i|
+#   #       url = _parser.prepare_url("#{params[:maker]}/","#{params[:model]}/","used", i)
+#   #       http = EventMachine::HttpRequest.new(url).get :redirects => 5
+#   #       http.errback { p 'Uh oh'; EM.stop }
+#   #       http.callback {
+#   #         worked_count += 1
+#   #         if http.response_header.status == 200
+#   #           p http.response_header
+#   #           page = Nokogiri.HTML http.response
+#   #           elements = page.css('.sales-table-row' )
+#   #           cars = cars.concat(elements.map {|car|
+#   #                                _parser.prepare_car( _parser.maker, _parser.model, car)
+#   #                              })
+#   #         end
+#   #       }
+#   #     cars.to_json
+#   #   end
+#   # end
+#   #
+#   # get '/load/makers/avito' do
+#   #   _parser = AvitoRuParser.new
+#   #   makers = _parser.load_makers
+#   #   makers.to_json
+#   # end
+#   #
+#   # get '/load/models/avito' do
+#   #   _parser = AvitoRuParser.new
+#   #   models = []
+#   #   Maker.all.each{ |maker|
+#   #     models = _parser.load_models maker
+#   #   }
+#   #   models.to_json
+#   # end
+#   #
+#   # get '/load/auto/:maker' do
+#   #   _parser = AutoRuParser.new
+#   #   _parser.callbacks = Hash.new
+#   #   maker = Maker.find_by(autoruname: params[:maker])
+#   #   models = []
+#   #   if !maker.nil?
+#   #     models = Model.where(maker_id:maker.id)
+#   #     models.each{|model|
+#   #       _parser.maker = maker
+#   #       _parser.model = model
+#   #       worked_count = 0
+#   #       (1..5).each do |i|
+#   #         url = _parser.prepare_url("#{_parser.maker.autoruname}/","#{_parser.model.autoruname}/","used/", i)
+#   #         _parser.callbacks[url.to_s] = {maker: maker, model:model}
+#   #         http = EventMachine::HttpRequest.new(url).get :redirects => 5
+#   #         http.errback { p 'Uh oh'; EM.stop }
+#   #         http.callback {
+#   #           info = _parser.callbacks[http.req.uri.to_s]
+#   #           if !info.nil?
+#   #             maker = _parser.callbacks[http.req.uri.to_s][:maker]
+#   #             model = _parser.callbacks[http.req.uri.to_s][:model]
+#   #             worked_count += 1
+#   #             if http.response_header.status == 200
+#   #               page = Nokogiri.HTML http.response
+#   #               elements = page.css('.sales-table-row' )
+#   #               elements.map {|car|
+#   #                 _parser.prepare_car( maker, model, car) }
+#   #             end
+#   #           else
+#   #             p http.req.uri.to_s
+#   #           end
+#   #           EM.defer do
+#   #             sleep 1
+#   #           end
+#   #         }
+#   #       end
+#   #     }
+#   #   end
+#   #   models.to_json
+#   # end
+#   #
+#   # get '/load/avito/:maker/:model' do
+#   #   _parser = AvitoRuParser.new
+#   #   _parser.maker = params[:maker]
+#   #   _parser.model = params[:model]
+#   #   cars = []
+#   #   worked_count = 0
+#   #   (1..20).each do |i|
+#   #     url = _parser.prepare_url("#{params[:maker]}/","#{params[:model]}/", i)
+#   #     http = EventMachine::HttpRequest.new(url).get :redirects => 5, :head => {"Accept" => "*/*", "User-Agent" => "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/600.2.5 (KHTML, like Gecko) Version/7.1.2 Safari/537.85.11", "Referer" => "http://www.google.ru/", "Keep-alive" => "true" }
+#   #     http.errback { p 'Uh oh'; EM.stop }
+#   #     http.callback {
+#   #       worked_count += 1
+#   #       if http.response_header.status == 200
+#   #         page = Nokogiri.HTML http.response
+#   #         elements = page.css('.item_table' ).to_a
+#   #         cars = cars.concat(elements.map {|car|
+#   #                              _parser.prepare_car( _parser.maker, _parser.model, car)
+#   #                            })
+#   #       end
+#   #     }
+#   #     cars.to_json
+#   #   end
+#   #   cars.to_json
+#   # end
+#   #
+#   # get '/load/makers/auto' do
+#   #   _parser = AutoRuParser.new
+#   #   makers = _parser.load_makers
+#   #   makers.to_json
+#   # end
+#   #
+#   # get '/load/models/auto' do
+#   #   _parser = AutoRuParser.new
+#   #   models = []
+#   #   Maker.all.each{ |maker|
+#   #     models = _parser.load_models maker
+#   #   }
+#   #   models.to_json
+#   # end
+#   #
+#   # get '/load/cars/auto' do
+#   #   # _parser = AutoRuParser.new
+#   #   # Model.all.each{|model|
+#   #   #   maker_name = Maker.find_by(id: model.maker_id).autoruname
+#   #   #   model_name = model.autoruname
+#   #   #
+#   #   #   cars = []
+#   #   #
+#   #   #   worked_count = 0
+#   #   #   (1..1000).each do |i|
+#   #   #     url = _parser.prepare_url("#{maker_name}/","#{model_name}/","used", i)
+#   #   #     http = EventMachine::HttpRequest.new(url).get :redirects => 5
+#   #   #     http.errback { p 'Uh oh'; EM.stop }
+#   #   #     http.callback {
+#   #   #       worked_count += 1
+#   #   #       if http.response_header.status == 200
+#   #   #         p http.response_header
+#   #   #         page = Nokogiri.HTML http.response
+#   #   #         elements = page.css('.sales-table-row' )
+#   #   #         cars = cars.concat(elements.map {|car| _parser.prepare_car( maker_name, model_name, car) })
+#   #   #       end
+#   #   #     }
+#   #   #     cars.to_json
+#   #   #   end
+#   #   # }
+#   #   # set reverse order!
+#   # end
+# end
 
-  register Sinatra::ActiveRecordExtension
-
-
-  configure do
-    set :threaded, false
-    set :database, {adapter: "sqlite3", database: "autos.sqlite3"}
-    set :views, 'views'
-  end
-
-  get '/' do
-    'hello'
-  end
-  #
-  # # Request runs on the reactor thread (with threaded set to false)
-  # get '/hello' do
-  #   'Hello World'
-  # end
-  #
-  # # Request runs on the reactor thread (with threaded set to false)
-  # # and returns immediately. The deferred task does not delay the
-  # # response from the web-service.
-  # get '/delayed-hello' do
-  #   EM.defer do
-  #     sleep 5
-  #   end
-  #   'I\'m doing work in the background, but I am still free to take requests'
-  # end
-  #
-  # get '/load/auto/:maker/:model' do
-  #   _parser = AutoRuParser.new
-  #   _parser.maker = params[:maker]
-  #   _parser.model = params[:model]
-  #   cars = []
-  #
-  #   worked_count = 0
-  #     (1..100).each do |i|
-  #       url = _parser.prepare_url("#{params[:maker]}/","#{params[:model]}/","used", i)
-  #       http = EventMachine::HttpRequest.new(url).get :redirects => 5
-  #       http.errback { p 'Uh oh'; EM.stop }
-  #       http.callback {
-  #         worked_count += 1
-  #         if http.response_header.status == 200
-  #           p http.response_header
-  #           page = Nokogiri.HTML http.response
-  #           elements = page.css('.sales-table-row' )
-  #           cars = cars.concat(elements.map {|car|
-  #                                _parser.prepare_car( _parser.maker, _parser.model, car)
-  #                              })
-  #         end
-  #       }
-  #     cars.to_json
-  #   end
-  # end
-  #
-  # get '/load/makers/avito' do
-  #   _parser = AvitoRuParser.new
-  #   makers = _parser.load_makers
-  #   makers.to_json
-  # end
-  #
-  # get '/load/models/avito' do
-  #   _parser = AvitoRuParser.new
-  #   models = []
-  #   Maker.all.each{ |maker|
-  #     models = _parser.load_models maker
-  #   }
-  #   models.to_json
-  # end
-  #
-  # get '/load/auto/:maker' do
-  #   _parser = AutoRuParser.new
-  #   _parser.callbacks = Hash.new
-  #   maker = Maker.find_by(autoruname: params[:maker])
-  #   models = []
-  #   if !maker.nil?
-  #     models = Model.where(maker_id:maker.id)
-  #     models.each{|model|
-  #       _parser.maker = maker
-  #       _parser.model = model
-  #       worked_count = 0
-  #       (1..5).each do |i|
-  #         url = _parser.prepare_url("#{_parser.maker.autoruname}/","#{_parser.model.autoruname}/","used/", i)
-  #         _parser.callbacks[url.to_s] = {maker: maker, model:model}
-  #         http = EventMachine::HttpRequest.new(url).get :redirects => 5
-  #         http.errback { p 'Uh oh'; EM.stop }
-  #         http.callback {
-  #           info = _parser.callbacks[http.req.uri.to_s]
-  #           if !info.nil?
-  #             maker = _parser.callbacks[http.req.uri.to_s][:maker]
-  #             model = _parser.callbacks[http.req.uri.to_s][:model]
-  #             worked_count += 1
-  #             if http.response_header.status == 200
-  #               page = Nokogiri.HTML http.response
-  #               elements = page.css('.sales-table-row' )
-  #               elements.map {|car|
-  #                 _parser.prepare_car( maker, model, car) }
-  #             end
-  #           else
-  #             p http.req.uri.to_s
-  #           end
-  #           EM.defer do
-  #             sleep 1
-  #           end
-  #         }
-  #       end
-  #     }
-  #   end
-  #   models.to_json
-  # end
-  #
-  # get '/load/avito/:maker/:model' do
-  #   _parser = AvitoRuParser.new
-  #   _parser.maker = params[:maker]
-  #   _parser.model = params[:model]
-  #   cars = []
-  #   worked_count = 0
-  #   (1..20).each do |i|
-  #     url = _parser.prepare_url("#{params[:maker]}/","#{params[:model]}/", i)
-  #     http = EventMachine::HttpRequest.new(url).get :redirects => 5, :head => {"Accept" => "*/*", "User-Agent" => "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/600.2.5 (KHTML, like Gecko) Version/7.1.2 Safari/537.85.11", "Referer" => "http://www.google.ru/", "Keep-alive" => "true" }
-  #     http.errback { p 'Uh oh'; EM.stop }
-  #     http.callback {
-  #       worked_count += 1
-  #       if http.response_header.status == 200
-  #         page = Nokogiri.HTML http.response
-  #         elements = page.css('.item_table' ).to_a
-  #         cars = cars.concat(elements.map {|car|
-  #                              _parser.prepare_car( _parser.maker, _parser.model, car)
-  #                            })
-  #       end
-  #     }
-  #     cars.to_json
-  #   end
-  #   cars.to_json
-  # end
-  #
-  # get '/load/makers/auto' do
-  #   _parser = AutoRuParser.new
-  #   makers = _parser.load_makers
-  #   makers.to_json
-  # end
-  #
-  # get '/load/models/auto' do
-  #   _parser = AutoRuParser.new
-  #   models = []
-  #   Maker.all.each{ |maker|
-  #     models = _parser.load_models maker
-  #   }
-  #   models.to_json
-  # end
-  #
-  # get '/load/cars/auto' do
-  #   # _parser = AutoRuParser.new
-  #   # Model.all.each{|model|
-  #   #   maker_name = Maker.find_by(id: model.maker_id).autoruname
-  #   #   model_name = model.autoruname
-  #   #
-  #   #   cars = []
-  #   #
-  #   #   worked_count = 0
-  #   #   (1..1000).each do |i|
-  #   #     url = _parser.prepare_url("#{maker_name}/","#{model_name}/","used", i)
-  #   #     http = EventMachine::HttpRequest.new(url).get :redirects => 5
-  #   #     http.errback { p 'Uh oh'; EM.stop }
-  #   #     http.callback {
-  #   #       worked_count += 1
-  #   #       if http.response_header.status == 200
-  #   #         p http.response_header
-  #   #         page = Nokogiri.HTML http.response
-  #   #         elements = page.css('.sales-table-row' )
-  #   #         cars = cars.concat(elements.map {|car| _parser.prepare_car( maker_name, model_name, car) })
-  #   #       end
-  #   #     }
-  #   #     cars.to_json
-  #   #   end
-  #   # }
-  #   # set reverse order!
-  # end
+parser = AutoruParser.new
+# p parser.parse(parser.get_url(parser.prepare_url "audi/","a3/",1),"audi","a3")
+#parser.load_makers
+get '/' do
+  "hello"
 end
