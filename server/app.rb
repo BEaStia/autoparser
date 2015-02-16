@@ -322,10 +322,3 @@ require './parser'
 #   #   # set reverse order!
 #   # end
 # end
-
-parser = AutoruParser.new
-# p parser.parse(parser.get_url(parser.prepare_url "audi/","a3/",1),"audi","a3")
-#parser.load_makers
-get '/' do
-  "hello"
-end

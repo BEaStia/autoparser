@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150130203021) do
+ActiveRecord::Schema.define(version: 20150214011818) do
 
   create_table "autos", force: :cascade do |t|
     t.text     "maker"
@@ -35,6 +35,7 @@ ActiveRecord::Schema.define(version: 20150130203021) do
     t.text    "maker"
     t.text    "autoruname"
     t.integer "autoru"
+    t.text    "avitoname"
   end
 
   create_table "models", force: :cascade do |t|
@@ -42,6 +43,7 @@ ActiveRecord::Schema.define(version: 20150130203021) do
     t.text    "model"
     t.integer "autoru"
     t.text    "autoruname"
+    t.text    "avitoname"
   end
 
   add_index "models", ["maker_id"], name: "index_models_on_maker_id"

@@ -6,7 +6,6 @@ import feathers.controls.Button;
 import feathers.controls.Callout;
 import feathers.controls.Label;
 import feathers.themes.MetalWorksMobileTheme;
-
 import starling.display.Sprite;
 import starling.events.Event;
 import starling.events.ResizeEvent;
@@ -35,9 +34,18 @@ public class FirstWindow extends Sprite {
 
     protected function button_triggeredHandler( event:Event ):void
     {
+        var dm:DownloadManager = new DownloadManager();
+        dm.DownloadJSON("http://localhost:4567/makers",function(result:Object):void
+        {
+            trace(result as Array);
+            show_button();
+        });
+    }
+
+    private function show_button():void {
         const label:Label = new Label();
         label.text = "Hi, I'm Feathers!\nHave a nice day.";
-        Callout.show( label, this.button );
+        Callout.show( label, this.button);
     }
 
     protected function screen_resizedHandler(event:ResizeEvent):void {
