@@ -5,6 +5,7 @@ require 'sinatra'
 require 'sinatra/activerecord'
 require 'sqlite3'
 require 'json'
+require 'yaml'
 
 set :database, {adapter: "sqlite3", database: "auto.sqlite3"}
 class Auto  < ActiveRecord::Base
@@ -74,9 +75,9 @@ class AutoruParser < BaseParser
   def initialize
     @remote_base_url = "http://auto.ru"
   end
-  def prepare_url maker,model,page
+  def prepare_url maker,model,page = 1
     used = "used"
-    url = URI.join(@remote_base_url,"/cars/",maker,model,used)
+    url = URI.join(@remote_base_url,"/cars/",maker+"/",model+"/",used)
     params = {:p => page, :output_type => "table"}
     url.query = URI.encode_www_form params
     p url
@@ -87,7 +88,7 @@ class AutoruParser < BaseParser
     Nokogiri.HTML(open(url))
   end
 
-  def parse page,maler,model
+  def parse page,maker,model
     cars = []
     elements = page.css('.sales-table-row' )
     cars = cars.concat(elements.map {|car|
@@ -104,6 +105,7 @@ class AutoruParser < BaseParser
     place = xml.css('.sales-table-region').text
     #time = Date.strptime(xml.css('.sales-table-date')[0].text,"%d.%m.%y")
     id = xml['data-sale_id']
+    #TODO: create full set of properties for car
     #auto = Auto.new maker, model, year, price, place, milage, description, id
     if Auto.find_by(uid: id).nil?
       auto = Auto.create! maker: maker, model: model, year: year, price: price, milage: milage, short_description: description,
@@ -202,76 +204,90 @@ class AvitoRuParser<BaseParser
     end
   end
 
-  def load_makers
-    @url = "https://www.avito.ru/rossiya/avtomobili_s_probegom"
-    page = Nokogiri.HTML(open(@url))
-    items_script = page.css('script').to_a.map{|script| script.text}.select{|script| script.include?("avito.counters[0]")}.first
-    items = items_script.split("avito.counters[0] =").second
-    js = JSON.parse(items[0..items.length-4])
-    js.each{|item|
-      if Maker.where("lower(maker) = ?",item['name'].downcase).to_a.empty?
-        _maker = Maker.create! maker: item['name'], avitoname: item['url'].split('/').last
-      else
-        _maker = Maker.where("lower(maker) = ?", item['name'].downcase).to_a.first
-        _maker.avitoname = item['url'].split('/').last
-        _maker.save!
-      end
-    }
-    js
-  end
+  # def load_makers
+  #   @url = "https://www.avito.ru/rossiya/avtomobili_s_probegom"
+  #   page = Nokogiri.HTML(open(@url))
+  #   items_script = page.css('script').to_a.map{|script| script.text}.select{|script| script.include?("avito.counters[0]")}.first
+  #   items = items_script.split("avito.counters[0] =").second
+  #   js = JSON.parse(items[0..items.length-4])
+  #   js.each{|item|
+  #     if Maker.where("lower(maker) = ?",item['name'].downcase).to_a.empty?
+  #       _maker = Maker.create! maker: item['name'], avitoname: item['url'].split('/').last
+  #     else
+  #       _maker = Maker.where("lower(maker) = ?", item['name'].downcase).to_a.first
+  #       _maker.avitoname = item['url'].split('/').last
+  #       _maker.save!
+  #     end
+  #   }
+  #   js
+  # end
 
-  def load_models maker
-    _maker = maker.avitoname
-    maker_id = maker.id
-    @url = "https://www.avito.ru/rossiya/avtomobili_s_probegom/#{ _maker}"
-    page = Nokogiri.HTML(open(@url))
-    models = page.css('.js-catalog-counts__link').select{|item|
-      item['href'].include?("/rossiya/avtomobili_s_probegom/#{_maker}")
-    }.map {|item|
-      {item: item.text.to_s.lstrip.rstrip, avitoname: item['href'].gsub("/rossiya/avtomobili_s_probegom/#{_maker}/",'')}
-    }#.sort_by{|item| item[:item]}
-
-    models.each{|model|
-      if Model.where("lower(model) = ? AND maker_id = ?",model[:avitoname].downcase, maker_id).to_a.empty?
-        _model = Model.create! maker_id: maker_id, model: model[:item], avitoname: model[:avitoname]
-      else
-        _model = Model.where("lower(model) = ? AND maker_id = ?",model[:avitoname].downcase,maker_id).to_a.first
-        p _model
-      end
-      p model
-      # if Model.find_by(maker_id: maker_id, model: model[:item]).nil?
-      #   _model = Model.create! maker_id: maker_id, model: model[:item], autoru: 1, autoruname: model[:autoruname]
-      # end
-    }
-  end
+  # def load_models maker
+  #   _maker = maker.avitoname
+  #   maker_id = maker.id
+  #   @url = "https://www.avito.ru/rossiya/avtomobili_s_probegom/#{ _maker}"
+  #   page = Nokogiri.HTML(open(@url))
+  #   models = page.css('.js-catalog-counts__link').select{|item|
+  #     item['href'].include?("/rossiya/avtomobili_s_probegom/#{_maker}")
+  #   }.map {|item|
+  #     {item: item.text.to_s.lstrip.rstrip, avitoname: item['href'].gsub("/rossiya/avtomobili_s_probegom/#{_maker}/",'')}
+  #   }#.sort_by{|item| item[:item]}
+  #
+  #   models.each{|model|
+  #     if Model.where("lower(model) = ? AND maker_id = ?",model[:avitoname].downcase, maker_id).to_a.empty?
+  #       _model = Model.create! maker_id: maker_id, model: model[:item], avitoname: model[:avitoname]
+  #     else
+  #       _model = Model.where("lower(model) = ? AND maker_id = ?",model[:avitoname].downcase,maker_id).to_a.first
+  #       p _model
+  #     end
+  #     p model
+  #     # if Model.find_by(maker_id: maker_id, model: model[:item]).nil?
+  #     #   _model = Model.create! maker_id: maker_id, model: model[:item], autoru: 1, autoruname: model[:autoruname]
+  #     # end
+  #   }
+  # end
 
 end
 
 
-parser = AutoruParser.new
+autoparser = AutoruParser.new
 avitoParser = AvitoRuParser.new
-#avitoParser.load_models Maker.find(1)
-parser.load_models Maker.find(1)
-# p parser.parse(parser.get_url(parser.prepare_url "audi/","a3/",1),"audi","a3")
+# # data = Maker.all.map{|maker|
+#   {'maker'=>maker['maker'], 'id'=>maker.id, 'models'=>[Model.where(maker_id:maker.id).map{|model| {'model'=>model['model'], 'ids'=>{'auto'=>[model['autoruname']],'avito'=>[model['avitoname']]} } }] }
+# }
+# File.open('config/makers.yaml','w'){|file| file.write(data.to_yaml)}
+# get get'/' do
+#   parser.load_makers
+#   Maker.all.to_json
+# end
+#
+# get '/models.json' do
+#   Model.all.to_json
+# end
+#
+# get '/makers' do
+#   Maker.all.to_json
+# end
+#
+# get '/update' do
+#   parser.load_makers
+#   avitoParser.load_makers
+#   makers = Maker.all
+#   makers.each {|maker|
+#     parser.load_models maker
+#     avitoParser.load_models maker
+#   }
+# end
+
+makers = YAML.load(File.read('config/makers.yaml', :encoding => 'utf-8'))['cars']
+
 get '/' do
-  parser.load_makers
-  Maker.all.to_json
+  makers.to_json
 end
 
-get '/models.json' do
-  Model.all.to_json
-end
-
-get '/makers' do
-  Maker.all.to_json
-end
-
-get '/update' do
-  parser.load_makers
-  avitoParser.load_makers
-  makers = Maker.all
-  makers.each {|maker|
-    parser.load_models maker
-    avitoParser.load_models maker
-  }
+get '/load/auto/:maker/:model' do
+  url = autoparser.prepare_url params[:maker], params[:model]
+  xml = autoparser.get_url(url)
+  cars = autoparser.parse(xml, params[:maker], params[:model])
+  p cars
 end

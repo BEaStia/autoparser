@@ -14,7 +14,16 @@ class CreateAuto < ActiveRecord::Migration
       t.datetime :posted_at
       t.text :phone
       t.text :description
+      t.text :color
+      t.float :volume
+      t.integer :hp
+      t.text :wd
+      t.text :fuel
+      t.text :body
+      t.text :steering_wheel
+      t.text :gearbox
       t.timestamps
+
     end
   end
 

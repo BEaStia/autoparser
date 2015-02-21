@@ -1,0 +1,837 @@
+﻿cars:
+  - maker: Audi
+    id: 1
+    models:
+    - - model: '100'
+        ids:
+          auto:
+          - '100'
+          avito:
+          - '100'
+      - model: '200'
+        ids:
+          auto:
+          - '200'
+          avito:
+          - '200'
+      - model: '50'
+        ids:
+          auto:
+          -
+          avito:
+          - '50'
+      - model: '80'
+        ids:
+          auto:
+          - '80'
+          avito:
+          - '80'
+      - model: '90'
+        ids:
+          auto:
+          - '90'
+          avito:
+          - '90'
+      - model: A1
+        ids:
+          auto:
+          - a1
+          avito:
+          - a1
+      - model: A2
+        ids:
+          auto:
+          - a2
+          avito:
+          - a2
+      - model: A3
+        ids:
+          auto:
+          - a3
+          avito:
+          - a3
+      - model: A4
+        ids:
+          auto:
+          - a4
+          avito:
+          - a4
+      - model: A5
+        ids:
+          auto:
+          - a5
+          avito:
+          - a5
+      - model: A6
+        ids:
+          auto:
+          - a6
+          avito:
+          - a6
+      - model: A7
+        ids:
+          auto:
+          - a7
+          avito:
+          - a7
+      - model: A8
+        ids:
+          auto:
+          - a8
+          avito:
+          - a8
+      - model: Allroad
+        ids:
+          auto:
+          - a6-allroad
+          - a4-allroad
+          avito:
+          - allroad
+      - model: Cabriolet
+        ids:
+          auto:
+          - cabriolet
+          avito:
+          - cabriolet
+      - model: Coupe
+        ids:
+          auto:
+          - coupe
+          avito:
+          - coupe
+      - model: Q3
+        ids:
+          auto:
+          - q3
+          avito:
+          - q3
+      - model: Q5
+        ids:
+          auto:
+          - q5
+          avito:
+          - q5
+      - model: Q7
+        ids:
+          auto:
+          - q7
+          avito:
+          - q7
+      - model: Quattro
+        ids:
+          auto:
+          - ''
+          avito:
+          - quattro
+      - model: R8
+        ids:
+          auto:
+          - r8
+          avito:
+          - r8
+      - model: RS4
+        ids:
+          auto:
+          - rs4
+          avito:
+          - rs4
+      - model: RS5
+        ids:
+          auto:
+          - rs5
+          avito:
+          - rs5
+      - model: RS6
+        ids:
+          auto:
+          - rs6
+          avito:
+          - rs6
+      - model: RS7
+        ids:
+          auto:
+          - rs7
+          avito:
+          - rs7
+      - model: RS8
+        ids:
+          auto:
+          -
+          avito:
+          - rs8
+      - model: S3
+        ids:
+          auto:
+          - s3
+          avito:
+          - s3
+      - model: S4
+        ids:
+          auto:
+          - s4
+          avito:
+          - s4
+      - model: S5
+        ids:
+          auto:
+          - s5
+          avito:
+          - s5
+      - model: S6
+        ids:
+          auto:
+          - s6
+          avito:
+          - s6
+      - model: S7
+        ids:
+          auto:
+          - s7
+          avito:
+          - s7
+      - model: S8
+        ids:
+          auto:
+          - s8
+          avito:
+          - s8
+      - model: TT
+        ids:
+          auto:
+          - tt
+          avito:
+          - tt
+      - model: TT RS
+        ids:
+          auto:
+          - tt-rs
+          avito:
+          - tt_rs
+      - model: TTS
+        ids:
+          auto:
+          - tts
+          avito:
+          - tts
+      - model: V8
+        ids:
+          auto:
+          - v8
+          avito:
+          - v8
+      - model: RS Q3
+        ids:
+          auto:
+          - rs-q3
+          avito:
+          -
+      - model: RS2
+        ids:
+          auto:
+          - rs2
+          avito:
+          - ''
+      - model: RS3
+        ids:
+          auto:
+          - rs3
+          avito:
+          - ''
+      - model: SQ5
+        ids:
+          auto:
+          - sq5
+          avito:
+          - ''
+  - maker: BMW
+    id: 2
+    models:
+    - - model: 02 (E10)
+        ids:
+          auto:
+          - 02-e10
+          avito:
+          -
+      - model: 1er
+        ids:
+          auto:
+          - 1er
+          avito:
+          -
+      - model: 1M
+        ids:
+          auto:
+          - 1m
+          avito:
+          -
+      - model: 2er
+        ids:
+          auto:
+          - 2er
+          avito:
+          -
+      - model: 3er
+        ids:
+          auto:
+          - 3er
+          avito:
+          -
+      - model: 4er
+        ids:
+          auto:
+          - 4er
+          avito:
+          -
+      - model: 5er
+        ids:
+          auto:
+          - 5er
+          avito:
+          -
+      - model: 6er
+        ids:
+          auto:
+          - 6er
+          avito:
+          -
+      - model: 7er
+        ids:
+          auto:
+          - 7er
+          avito:
+          -
+      - model: 8er
+        ids:
+          auto:
+          - 8er
+          avito:
+          -
+      - model: i3
+        ids:
+          auto:
+          - i3
+          avito:
+          -
+      - model: M3
+        ids:
+          auto:
+          - m3
+          avito:
+          -
+      - model: M4
+        ids:
+          auto:
+          - m4
+          avito:
+          -
+      - model: M5
+        ids:
+          auto:
+          - m5
+          avito:
+          -
+      - model: M6
+        ids:
+          auto:
+          - m6
+          avito:
+          -
+      - model: X1
+        ids:
+          auto:
+          - x1
+          avito:
+          -
+      - model: X3
+        ids:
+          auto:
+          - x3
+          avito:
+          -
+      - model: X4
+        ids:
+          auto:
+          - x4
+          avito:
+          -
+      - model: X5
+        ids:
+          auto:
+          - x5
+          avito:
+          -
+      - model: X5 M
+        ids:
+          auto:
+          - x5m
+          avito:
+          -
+      - model: X6
+        ids:
+          auto:
+          - x6
+          avito:
+          -
+      - model: X6 M
+        ids:
+          auto:
+          - x6m
+          avito:
+          -
+      - model: Z3
+        ids:
+          auto:
+          - z3
+          avito:
+          -
+      - model: Z3 M
+        ids:
+          auto:
+          - z3m
+          avito:
+          -
+      - model: Z4
+        ids:
+          auto:
+          - z4
+          avito:
+          -
+      - model: Z8
+        ids:
+          auto:
+          - z8
+          avito:
+          -
+      - model: '1'
+        ids:
+          auto:
+          -
+          avito:
+          - '1'
+      - model: '2'
+        ids:
+          auto:
+          -
+          avito:
+          - '2'
+      - model: '3'
+        ids:
+          auto:
+          -
+          avito:
+          - '3'
+      - model: 3 GT
+        ids:
+          auto:
+          -
+          avito:
+          - 3_gt
+      - model: '4'
+        ids:
+          auto:
+          -
+          avito:
+          - '4'
+      - model: '5'
+        ids:
+          auto:
+          -
+          avito:
+          - '5'
+      - model: 5 GT
+        ids:
+          auto:
+          -
+          avito:
+          - 5_gt
+      - model: '6'
+        ids:
+          auto:
+          -
+          avito:
+          - '6'
+      - model: '7'
+        ids:
+          auto:
+          -
+          avito:
+          - '7'
+      - model: '8'
+        ids:
+          auto:
+          -
+          avito:
+          - '8'
+      - model: ActiveHybrid 7
+        ids:
+          auto:
+          -
+          avito:
+          - activehybrid_7
+  - maker: "ВАЗ"
+    id: 40
+    models:
+    - - model: 1111 Ока
+        ids:
+          auto:
+          - 1111-oka
+          avito:
+          - 1111_oka
+      - model: '2101'
+        ids:
+          auto:
+          - '2101'
+          avito:
+          - '2101'
+      - model: '2102'
+        ids:
+          auto:
+          - '2102'
+          avito:
+          - '2102'
+      - model: '2103'
+        ids:
+          auto:
+          - '2103'
+          avito:
+          - '2103'
+      - model: '2104'
+        ids:
+          auto:
+          - '2104'
+          avito:
+          - '2104'
+      - model: '2105'
+        ids:
+          auto:
+          - '2105'
+          avito:
+          - '2105'
+      - model: '2106'
+        ids:
+          auto:
+          - '2106'
+          avito:
+          - '2106'
+      - model: '2107'
+        ids:
+          auto:
+          - '2107'
+          avito:
+          - '2107'
+      - model: '2108'
+        ids:
+          auto:
+          - '2108'
+          avito:
+          - '2108'
+      - model: '2109'
+        ids:
+          auto:
+          - '2109'
+          avito:
+          - '2109'
+      - model: '21099'
+        ids:
+          auto:
+          - '21099'
+          avito:
+          - '21099'
+      - model: '2110'
+        ids:
+          auto:
+          - '2110'
+          avito:
+          - '2110'
+      - model: '2111'
+        ids:
+          auto:
+          - '2111'
+          avito:
+          - '2111'
+      - model: '2112'
+        ids:
+          auto:
+          - '2112'
+          avito:
+          - '2112'
+      - model: '2113'
+        ids:
+          auto:
+          - '2113'
+          avito:
+          - '2113_samara'
+      - model: '2114'
+        ids:
+          auto:
+          - '2114'
+          avito:
+          - '2114_samara'
+      - model: '2115'
+        ids:
+          auto:
+          - '2115'
+          avito:
+          - '2115_samara'
+      - model: 2120 Надежда
+        ids:
+          auto:
+          - '2120'
+          avito:
+          - '2120_nadezhda'
+      - model: '4x4 Нива'
+        ids:
+          auto:
+          - '2121'
+          - '2131'
+          avito:
+          - '4x4_niva'
+      - model: '2123'
+        ids:
+          auto:
+          - '2123'
+          avito:
+          - '2123'
+      - model: '2129'
+        ids:
+          auto:
+          - '2129'
+          avito:
+          - '2129'
+      - model: '2329'
+        ids:
+          auto:
+          - '2329'
+          avito:
+          - '2329'
+      - model: Granta
+        ids:
+          auto:
+          - granta
+          avito:
+          - granta
+      - model: Kalina
+        ids:
+          auto:
+          - kalina
+          avito:
+          - kalina
+      - model: Largus
+        ids:
+          auto:
+          - largus
+          avito:
+          - largus
+      - model: Priora
+        ids:
+          auto:
+          - priora
+          avito:
+          - priora
+      - model: Revolution
+        ids:
+          auto:
+          - revolution
+          avito:
+          -
+  - maker: "ГАЗ"
+    id: 41
+    models:
+    - - model: 13 «Чайка»
+        ids:
+          auto:
+          - '13'
+          avito:
+          - '13_chayka'
+      - model: 14 «Чайка»
+        ids:
+          auto:
+          - '14'
+          avito:
+          - 14_chayka
+      - model: 21 «Волга»
+        ids:
+          auto:
+          - '21'
+          avito:
+          - 21_volga
+      - model: 22 «Волга»
+        ids:
+          auto:
+          - '22'
+          avito:
+          - '22'
+      - model: 2330 «Тигр»
+        ids:
+          auto:
+          - '2330'
+          avito:
+          -
+      - model: 24 «Волга»
+        ids:
+          auto:
+          - '24'
+          avito:
+          - 24_volga
+      - model: 3102 «Волга»
+        ids:
+          auto:
+          - '3102'
+          avito:
+          - 3102_volga
+      - model: 31029 «Волга»
+        ids:
+          auto:
+          - '31029'
+          avito:
+          -
+      - model: 3105 «Волга»
+        ids:
+          auto:
+          - '3105'
+          avito:
+          -
+      - model: 3110 «Волга»
+        ids:
+          auto:
+          - '3110'
+          avito:
+          - 3110_volga
+      - model: 31105 «Волга»
+        ids:
+          auto:
+          - '31105'
+          avito:
+          -
+      - model: 3111 «Волга»
+        ids:
+          auto:
+          - '3111'
+          avito:
+          - 3111_volga
+      - model: '69'
+        ids:
+          auto:
+          - '69'
+          avito:
+          -
+      - model: Volga Siber
+        ids:
+          auto:
+          - siber
+          avito:
+          - volga_siber
+      - model: "М-20 «Победа»"
+        ids:
+          auto:
+          - m-20
+          avito:
+          - 20_pobeda
+      - model: "М1"
+        ids:
+          auto:
+          - m1
+          avito:
+          -
+      - model: 12 ЗИМ
+        ids:
+          auto:
+          -
+          avito:
+          - 12_zim
+      - model: 3101 Волга
+        ids:
+          auto:
+          -
+          avito:
+          - 3101_volga
+      - model: "Валдай"
+        ids:
+          auto:
+          -
+          avito:
+          - valday
+      - model: "Валдай 3310"
+        ids:
+          auto:
+          -
+          avito:
+          - valday_3310
+      - model: "Валдай 331063"
+        ids:
+          auto:
+          -
+          avito:
+          - valday_331063
+      - model: "ГАЗель"
+        ids:
+          auto:
+          -
+          avito:
+          - gazel
+      - model: "ГАЗель 2705"
+        ids:
+          auto:
+          -
+          avito:
+          - gazel_2705
+      - model: "ГАЗель 3221"
+        ids:
+          auto:
+          -
+          avito:
+          - gazel_3221
+      - model: "ГАЗель 3302"
+        ids:
+          auto:
+          -
+          avito:
+          - gazel_3302
+      - model: "ГАЗель 33023"
+        ids:
+          auto:
+          -
+          avito:
+          - gazel_33023
+      - model: "ГАЗель 33025"
+        ids:
+          auto:
+          -
+          avito:
+          - gazel_33025
+      - model: "ГАЗель Next"
+        ids:
+          auto:
+          -
+          avito:
+          - gazel_next
+      - model: "ГАЗель Бизнес"
+        ids:
+          auto:
+          -
+          avito:
+          - gazel_biznes
+      - model: "Соболь"
+        ids:
+          auto:
+          -
+          avito:
+          - sobol
+      - model: "Соболь 2217"
+        ids:
+          auto:
+          -
+          avito:
+          - sobol_2217
+      - model: "Соболь 2310"
+        ids:
+          auto:
+          -
+          avito:
+          - sobol_2310
+      - model: "Соболь 2752"
+        ids:
+          auto:
+          -
+          avito:
+          - sobol_2752

@@ -1,0 +1,29 @@
+body:
+  - name: "Седан", code: "sedan"
+  - name: "Хетчбек", code: "hatchback"
+  - name: "Универсал", code: "universal"
+  - name: "Купе", code: "coupe"
+  - name: "Минивэн", code: "minivan"
+  - name: "Пикап", code: "pickup"
+  - name: "Кабриолет", code: "cab"
+  - name: "Внедорожник", code: "suv"
+
+steering_wheel:
+  - name: "Правый", code: "r"
+  - name: "Левый", code: "l"
+
+wheeling_drives:
+  - name: "Передний", code: "forward"
+  - name: "Задний", code: "rear"
+  - name: "Полный", code: "all"
+
+fuel:
+  - name: "Бензин", code: "gasoline"
+  - name: "Дизель", code: "diesel"
+  - name: "Гибрид", code: "hybrid"
+  - name: "Бензин/газ", code: "gasoline_gas"
+  - name: "Электро", code: "electro"
+
+gearbox:
+  - name: "Механическая", code: "M"
+  - name: "Автомат", code: "A"
