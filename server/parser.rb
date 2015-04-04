@@ -7,7 +7,9 @@ require 'sqlite3'
 require 'json'
 require 'yaml'
 
-set :database, {adapter: "sqlite3", database: "auto.sqlite3"}
+#set :database, {adapter: "sqlite3", database: "auto.sqlite3"}
+set :database_file, "config/database.yml"
+
 class Auto  < ActiveRecord::Base
 end
 
@@ -103,13 +105,15 @@ class AutoruParser < BaseParser
     milage = xml.css('.sales-table-cell_run')[0].text.tr('^0-9', '').to_i
     description = xml.css('.sales-table-cell_engine')[0].text
     place = xml.css('.sales-table-region').text
+    fuel = description.split(',')[1].lstrip
+    volume = description.tr('^0-9.','')
+    gearbox = description.split(',')[0].tr('^ATM','')
     #time = Date.strptime(xml.css('.sales-table-date')[0].text,"%d.%m.%y")
     id = xml['data-sale_id']
     #TODO: create full set of properties for car
-    #auto = Auto.new maker, model, year, price, place, milage, description, id
     if Auto.find_by(uid: id).nil?
       auto = Auto.create! maker: maker, model: model, year: year, price: price, milage: milage, short_description: description,
-                          town: place, uid: id, new: 1
+                          town: place, uid: id, new: 1, fuel: fuel, volume: volume, gearbox: gearbox
       "new"
     else
       "old"
@@ -290,4 +294,10 @@ get '/load/auto/:maker/:model' do
   xml = autoparser.get_url(url)
   cars = autoparser.parse(xml, params[:maker], params[:model])
   p cars
+end
+
+get '/cars/:maker/:model' do
+  Auto.where(:maker => params[:maker], :model => params[:model]).map{|car|
+    car.attributes.delete_if { |k, v| v.nil? }
+  }.to_json
 end
