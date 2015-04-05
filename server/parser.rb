@@ -81,6 +81,7 @@ class AutoruParser < BaseParser
     used = "used"
     url = URI.join(@remote_base_url,"/cars/",maker+"/",model+"/",used)
     params = {:p => page, :output_type => "table"}
+    params["sort[set_date]"] = 'desc'
     url.query = URI.encode_www_form params
     p url
     url
@@ -93,10 +94,11 @@ class AutoruParser < BaseParser
   def parse page,maker,model
     cars = []
     elements = page.css('.sales-table-row' )
-    cars = cars.concat(elements.map {|car|
-         prepare_car( maker, model, car)
+    count = 0
+    cars.concat(elements.map {|car|
+         count += prepare_car( maker, model, car)
        })
-    cars
+    count
   end
 
   def prepare_car maker,model,xml
@@ -107,17 +109,36 @@ class AutoruParser < BaseParser
     place = xml.css('.sales-table-region').text
     fuel = description.split(',')[1].lstrip
     volume = description.tr('^0-9.','')
-    gearbox = description.split(',')[0].tr('^ATM','')
+    gearbox = description.split(',')[0].split(' ').last
+
     #time = Date.strptime(xml.css('.sales-table-date')[0].text,"%d.%m.%y")
     id = xml['data-sale_id']
     #TODO: create full set of properties for car
+    count = 0
     if Auto.find_by(uid: id).nil?
+      url = "http://auto.ru/cars/used/sale/" + id
+      html_code = get_url url
+      _hp = html_code.css('.card-info-value')[3].text.split('/')[1]
+      hp = _hp.tr('^0-9.','').to_i if !_hp.nil?
+      body = html_code.css('.card-info-value')[2].text
+      steering_wheel = html_code.css('.card-info-value')[7].text
+      wd = html_code.css('.card-info-value')[5].text
+      color = html_code.css('.card-color')[0]['style'].split(';').first.split(':').last
+
+      #getting phones
+      url = "http://auto.ru/cars/used/sale/get_phones/" + id
+      phone = url
+
       auto = Auto.create! maker: maker, model: model, year: year, price: price, milage: milage, short_description: description,
-                          town: place, uid: id, new: 1, fuel: fuel, volume: volume, gearbox: gearbox
+                          town: place, uid: id, new: 1, fuel: fuel, volume: volume, gearbox: gearbox, hp: hp, color: color,
+                          steering_wheel: steering_wheel, body: body, wd: wd, phone: phone
+
+      count += 1
       "new"
     else
       "old"
     end
+    count
   end
 
   def load_makers
@@ -199,13 +220,16 @@ class AvitoRuParser<BaseParser
     }
     time = Chronic.parse(time, :now => Time.now).prev_year
     id = xml['id']
+    new_count = 0
     if Auto.find_by(uid: id).nil?
       auto = Auto.create! maker: maker, model: model, year: year, price: price, milage: milage, short_description: description,
                           town: place, uid: id, new: 1
       "new"
+      new_count += 1
     else
       "old"
     end
+    new_count
   end
 
   # def load_makers
@@ -290,10 +314,20 @@ get '/' do
 end
 
 get '/load/auto/:maker/:model' do
-  url = autoparser.prepare_url params[:maker], params[:model]
-  xml = autoparser.get_url(url)
-  cars = autoparser.parse(xml, params[:maker], params[:model])
-  p cars
+  count = 0
+  (0..200).each{|page|
+    begin
+      url = autoparser.prepare_url params[:maker], params[:model], page
+      xml = autoparser.get_url(url)
+    rescue OpenURI::HTTPError => e
+      print "page #{url} not found "
+      break
+    end
+    current_count = autoparser.parse(xml, params[:maker], params[:model])
+    break if current_count.eql?(0)
+    count += current_count
+  }
+  count
 end
 
 get '/cars/:maker/:model' do

@@ -5,433 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2238a8ed-bc5b-4d1d-afe4-a1e423e172bb" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\.idea\.name" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\.idea\compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\.idea\copyright\profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\.idea\encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\.idea\flexCompiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\.idea\libraries\MetalWorksMobileTheme.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\.idea\libraries\lib.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\.idea\libraries\temp.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\.idea\misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\.idea\modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\.idea\scopes\scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\.idea\uiDesigner.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\.idea\vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\.idea\workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\Main-app.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\client.iml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\lib\feathers.swc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\lib\starling.swc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\out\Main-app.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\out\Main-ios-descriptor.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\out\Main.swf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\src\DownloadManager.as" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\src\FirstWindow.as" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\src\Main.as" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\temp.iml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\README.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\button-disabled-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\button-down-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\button-hover-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\button-selected-disabled-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\button-selected-down-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\button-selected-hover-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\button-selected-up-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\button-up-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\check-disabled-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\check-down-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\check-hover-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\check-selected-disabled-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\check-selected-down-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\check-selected-hover-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\check-selected-up-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\check-up-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\focus-indicator-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\grouped-list-header-background-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\header-background-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\horizontal-scroll-bar-decrement-button-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\horizontal-scroll-bar-increment-button-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\horizontal-scroll-bar-step-button-disabled-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\horizontal-scroll-bar-step-button-down-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\horizontal-scroll-bar-step-button-hover-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\horizontal-scroll-bar-step-button-up-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\horizontal-scroll-bar-thumb-down-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\horizontal-scroll-bar-thumb-hover-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\horizontal-scroll-bar-thumb-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\horizontal-scroll-bar-thumb-up-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\horizontal-scroll-bar-track-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\hslider-thumb-disabled-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\hslider-thumb-down-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\hslider-thumb-hover-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\hslider-thumb-up-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\hslider-track-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\item-renderer-hover-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\item-renderer-selected-up-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\item-renderer-up-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\list-accessory-drill-down-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\numeric-stepper-decrement-button-disabled-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\numeric-stepper-decrement-button-down-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\numeric-stepper-decrement-button-hover-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\numeric-stepper-decrement-button-up-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\numeric-stepper-increment-button-disabled-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\numeric-stepper-increment-button-down-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\numeric-stepper-increment-button-hover-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\numeric-stepper-increment-button-up-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\page-indicator-normal-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\page-indicator-selected-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\panel-background-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\picker-list-disabled-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\picker-list-down-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\picker-list-hover-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\picker-list-up-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\progress-bar-fill-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\radio-disabled-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\radio-down-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\radio-hover-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\radio-selected-disabled-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\radio-selected-down-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\radio-selected-hover-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\radio-selected-up-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\radio-up-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\search-icon-disabled.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\search-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\simple-border-background-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\tab-disabled-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\tab-down-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\tab-hover-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\tab-selected-disabled-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\tab-selected-up-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\tab-up-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\text-input-background-disabled-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\text-input-background-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\vertical-scroll-bar-decrement-button-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\vertical-scroll-bar-increment-button-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\vertical-scroll-bar-step-button-disabled-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\vertical-scroll-bar-step-button-down-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\vertical-scroll-bar-step-button-hover-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\vertical-scroll-bar-step-button-up-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\vertical-scroll-bar-thumb-down-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\vertical-scroll-bar-thumb-hover-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\vertical-scroll-bar-thumb-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\vertical-scroll-bar-thumb-up-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\vertical-scroll-bar-track-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\vslider-thumb-disabled-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\vslider-thumb-down-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\vslider-thumb-hover-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\vslider-thumb-up-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon\vslider-track-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon_desktop.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon_desktop.tps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\assets\images\aeon_desktop.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\source\feathers\themes\AeonDesktopTheme.as" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\source\feathers\themes\AeonDesktopThemeWithAssetManager.as" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\source\feathers\themes\BaseAeonDesktopTheme.as" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\AeonDesktopTheme\swc\AeonDesktopTheme.swc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksDesktopTheme\README.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksDesktopTheme\assets\fonts\SourceSansPro-Regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksDesktopTheme\assets\fonts\SourceSansPro-Semibold.ttf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksDesktopTheme\assets\images\Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksDesktopTheme\assets\images\metalworks-desktop\Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksDesktopTheme\assets\images\metalworks-desktop\background-disabled-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksDesktopTheme\assets\images\metalworks-desktop\background-focused-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksDesktopTheme\assets\images\metalworks-desktop\background-popup-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksDesktopTheme\assets\images\metalworks-desktop\background-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksDesktopTheme\assets\images\metalworks-desktop\button-back-disabled-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksDesktopTheme\assets\images\metalworks-desktop\button-back-down-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksDesktopTheme\assets\images\metalworks-desktop\button-back-up-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksDesktopTheme\assets\images\metalworks-desktop\button-call-to-action-down-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksDesktopTheme\assets\images\metalworks-desktop\button-call-to-action-up-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksDesktopTheme\assets\images\metalworks-desktop\button-danger-down-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksDesktopTheme\assets\images\metalworks-desktop\button-danger-up-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksDesktopTheme\assets\images\metalworks-desktop\button-disabled-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksDesktopTheme\assets\images\metalworks-desktop\button-down-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksDesktopTheme\assets\images\metalworks-desktop\button-forward-disabled-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksDesktopTheme\assets\images\metalworks-desktop\button-forward-down-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksDesktopTheme\assets\images\metalworks-desktop\button-forward-up-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksDesktopTheme\assets\images\metalworks-desktop\button-quiet-hover-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksDesktopTheme\assets\images\metalworks-desktop\button-selected-disabled-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksDesktopTheme\assets\images\metalworks-desktop\button-selected-up-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksDesktopTheme\assets\images\metalworks-desktop\button-up-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksDesktopTheme\assets\images\metalworks-desktop\callout-arrow-bottom-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksDesktopTheme\assets\images\metalworks-desktop\callout-arrow-left-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksDesktopTheme\assets\images\metalworks-desktop\callout-arrow-right-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksDesktopTheme\assets\images\metalworks-desktop\callout-arrow-top-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksDesktopTheme\assets\images\metalworks-desktop\check-disabled-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksDesktopTheme\assets\images\metalworks-desktop\check-down-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksDesktopTheme\assets\images\metalworks-desktop\check-selected-disabled-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksDesktopTheme\assets\images\metalworks-desktop\check-selected-down-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksDesktopTheme\assets\images\metalworks-desktop\check-selected-up-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksDesktopTheme\assets\images\metalworks-desktop\check-up-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksDesktopTheme\assets\images\metalworks-desktop\focus-indicator-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksDesktopTheme\assets\images\metalworks-desktop\header-background-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksDesktopTheme\assets\images\metalworks-desktop\header-popup-background-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksDesktopTheme\assets\images\metalworks-desktop\horizontal-scroll-bar-decrement-button-disabled-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksDesktopTheme\assets\images\metalworks-desktop\horizontal-scroll-bar-decrement-button-disabled-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksDesktopTheme\assets\images\metalworks-desktop\horizontal-scroll-bar-decrement-button-down-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksDesktopTheme\assets\images\metalworks-desktop\horizontal-scroll-bar-decrement-button-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksDesktopTheme\assets\images\metalworks-desktop\horizontal-scroll-bar-decrement-button-up-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksDesktopTheme\assets\images\metalworks-desktop\horizontal-scroll-bar-increment-button-disabled-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksDesktopTheme\assets\images\metalworks-desktop\horizontal-scroll-bar-increment-button-disabled-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksDesktopTheme\assets\images\metalworks-desktop\horizontal-scroll-bar-increment-button-down-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksDesktopTheme\assets\images\metalworks-desktop\horizontal-scroll-bar-increment-button-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksDesktopTheme\assets\images\metalworks-desktop\horizontal-scroll-bar-increment-button-up-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksDesktopTheme\assets\images\metalworks-desktop\horizontal-simple-scroll-bar-thumb-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksDesktopTheme\assets\images\metalworks-desktop\item-renderer-selected-background-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksDesktopTheme\assets\images\metalworks-desktop\list-background-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksDesktopTheme\assets\images\metalworks-desktop\page-indicator-normal-disabled-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksDesktopTheme\assets\images\metalworks-desktop\page-indicator-normal-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksDesktopTheme\assets\images\metalworks-desktop\page-indicator-selected-disabled-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksDesktopTheme\assets\images\metalworks-desktop\page-indicator-selected-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksDesktopTheme\assets\images\metalworks-desktop\picker-list-icon-disabled.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksDesktopTheme\assets\images\metalworks-desktop\picker-list-icon-selected.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksDesktopTheme\assets\images\metalworks-desktop\picker-list-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksDesktopTheme\assets\images\metalworks-desktop\radio-selected-disabled-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksDesktopTheme\assets\images\metalworks-desktop\radio-selected-down-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksDesktopTheme\assets\images\metalworks-desktop\radio-selected-up-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksDesktopTheme\assets\images\metalworks-desktop\search-icon-disabled.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksDesktopTheme\assets\images\metalworks-desktop\search-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksDesktopTheme\assets\images\metalworks-desktop\tab-disabled-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksDesktopTheme\assets\images\metalworks-desktop\tab-down-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksDesktopTheme\assets\images\metalworks-desktop\tab-selected-disabled-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksDesktopTheme\assets\images\metalworks-desktop\tab-selected-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksDesktopTheme\assets\images\metalworks-desktop\tab-up-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksDesktopTheme\assets\images\metalworks-desktop\vertical-scroll-bar-decrement-button-disabled-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksDesktopTheme\assets\images\metalworks-desktop\vertical-scroll-bar-decrement-button-disabled-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksDesktopTheme\assets\images\metalworks-desktop\vertical-scroll-bar-decrement-button-down-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksDesktopTheme\assets\images\metalworks-desktop\vertical-scroll-bar-decrement-button-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksDesktopTheme\assets\images\metalworks-desktop\vertical-scroll-bar-decrement-button-up-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksDesktopTheme\assets\images\metalworks-desktop\vertical-scroll-bar-increment-button-disabled-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksDesktopTheme\assets\images\metalworks-desktop\vertical-scroll-bar-increment-button-disabled-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksDesktopTheme\assets\images\metalworks-desktop\vertical-scroll-bar-increment-button-down-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksDesktopTheme\assets\images\metalworks-desktop\vertical-scroll-bar-increment-button-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksDesktopTheme\assets\images\metalworks-desktop\vertical-scroll-bar-increment-button-up-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksDesktopTheme\assets\images\metalworks-desktop\vertical-simple-scroll-bar-thumb-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksDesktopTheme\assets\images\metalworks_desktop.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksDesktopTheme\assets\images\metalworks_desktop.tps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksDesktopTheme\assets\images\metalworks_desktop.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksDesktopTheme\source\feathers\themes\BaseMetalWorksDesktopTheme.as" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksDesktopTheme\source\feathers\themes\MetalWorksDesktopTheme.as" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksDesktopTheme\source\feathers\themes\MetalWorksDesktopThemeWithAssetManager.as" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksDesktopTheme\swc\MetalWorksDesktopTheme.swc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksMobileTheme\README.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksMobileTheme\assets\fonts\SourceSansPro-Regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksMobileTheme\assets\fonts\SourceSansPro-Semibold.ttf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksMobileTheme\assets\images\Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksMobileTheme\assets\images\metalworks\Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksMobileTheme\assets\images\metalworks\background-disabled-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksMobileTheme\assets\images\metalworks\background-down-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksMobileTheme\assets\images\metalworks\background-focused-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksMobileTheme\assets\images\metalworks\background-inset-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksMobileTheme\assets\images\metalworks\background-popup-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksMobileTheme\assets\images\metalworks\background-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksMobileTheme\assets\images\metalworks\button-back-disabled-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksMobileTheme\assets\images\metalworks\button-back-down-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksMobileTheme\assets\images\metalworks\button-back-up-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksMobileTheme\assets\images\metalworks\button-call-to-action-down-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksMobileTheme\assets\images\metalworks\button-call-to-action-up-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksMobileTheme\assets\images\metalworks\button-danger-down-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksMobileTheme\assets\images\metalworks\button-danger-up-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksMobileTheme\assets\images\metalworks\button-disabled-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksMobileTheme\assets\images\metalworks\button-down-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksMobileTheme\assets\images\metalworks\button-forward-disabled-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksMobileTheme\assets\images\metalworks\button-forward-down-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksMobileTheme\assets\images\metalworks\button-forward-up-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksMobileTheme\assets\images\metalworks\button-selected-disabled-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksMobileTheme\assets\images\metalworks\button-selected-up-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksMobileTheme\assets\images\metalworks\button-up-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksMobileTheme\assets\images\metalworks\callout-arrow-bottom-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksMobileTheme\assets\images\metalworks\callout-arrow-left-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksMobileTheme\assets\images\metalworks\callout-arrow-right-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksMobileTheme\assets\images\metalworks\callout-arrow-top-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksMobileTheme\assets\images\metalworks\check-selected-disabled-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksMobileTheme\assets\images\metalworks\check-selected-down-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksMobileTheme\assets\images\metalworks\check-selected-up-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksMobileTheme\assets\images\metalworks\header-background-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksMobileTheme\assets\images\metalworks\horizontal-scroll-bar-thumb-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksMobileTheme\assets\images\metalworks\list-accessory-drill-down-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksMobileTheme\assets\images\metalworks\list-inset-item-first-selected-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksMobileTheme\assets\images\metalworks\list-inset-item-first-up-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksMobileTheme\assets\images\metalworks\list-inset-item-last-selected-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksMobileTheme\assets\images\metalworks\list-inset-item-last-up-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksMobileTheme\assets\images\metalworks\list-inset-item-single-selected-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksMobileTheme\assets\images\metalworks\list-inset-item-single-up-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksMobileTheme\assets\images\metalworks\list-item-selected-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksMobileTheme\assets\images\metalworks\list-item-up-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksMobileTheme\assets\images\metalworks\page-indicator-normal-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksMobileTheme\assets\images\metalworks\page-indicator-selected-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksMobileTheme\assets\images\metalworks\picker-list-icon-disabled.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksMobileTheme\assets\images\metalworks\picker-list-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksMobileTheme\assets\images\metalworks\picker-list-item-selected-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksMobileTheme\assets\images\metalworks\radio-selected-disabled-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksMobileTheme\assets\images\metalworks\radio-selected-down-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksMobileTheme\assets\images\metalworks\radio-selected-up-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksMobileTheme\assets\images\metalworks\search-icon-disabled.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksMobileTheme\assets\images\metalworks\search-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksMobileTheme\assets\images\metalworks\tab-down-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksMobileTheme\assets\images\metalworks\tab-selected-disabled-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksMobileTheme\assets\images\metalworks\tab-selected-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksMobileTheme\assets\images\metalworks\vertical-scroll-bar-thumb-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksMobileTheme\assets\images\metalworks_mobile.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksMobileTheme\assets\images\metalworks_mobile.tps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksMobileTheme\assets\images\metalworks_mobile.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksMobileTheme\source\feathers\themes\BaseMetalWorksMobileTheme.as" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksMobileTheme\source\feathers\themes\MetalWorksMobileTheme.as" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksMobileTheme\source\feathers\themes\MetalWorksMobileThemeWithAssetManager.as" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MetalWorksMobileTheme\swc\MetalWorksMobileTheme.swc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalDesktopTheme\README.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalDesktopTheme\assets\fonts\pf_ronda_seven.fnt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalDesktopTheme\assets\images\Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalDesktopTheme\assets\images\minimal\Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalDesktopTheme\assets\images\minimal\button-back-disabled-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalDesktopTheme\assets\images\minimal\button-back-down-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalDesktopTheme\assets\images\minimal\button-back-up-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalDesktopTheme\assets\images\minimal\button-call-to-action-up-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalDesktopTheme\assets\images\minimal\button-danger-down-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalDesktopTheme\assets\images\minimal\button-danger-up-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalDesktopTheme\assets\images\minimal\button-disabled-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalDesktopTheme\assets\images\minimal\button-down-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalDesktopTheme\assets\images\minimal\button-forward-disabled-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalDesktopTheme\assets\images\minimal\button-forward-down-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalDesktopTheme\assets\images\minimal\button-forward-up-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalDesktopTheme\assets\images\minimal\button-selected-disabled-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalDesktopTheme\assets\images\minimal\button-selected-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalDesktopTheme\assets\images\minimal\button-up-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalDesktopTheme\assets\images\minimal\callout-arrow-bottom.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalDesktopTheme\assets\images\minimal\callout-arrow-left.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalDesktopTheme\assets\images\minimal\callout-arrow-right.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalDesktopTheme\assets\images\minimal\callout-arrow-top.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalDesktopTheme\assets\images\minimal\callout-background-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalDesktopTheme\assets\images\minimal\check-disabled-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalDesktopTheme\assets\images\minimal\check-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalDesktopTheme\assets\images\minimal\check-selected-disabled-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalDesktopTheme\assets\images\minimal\check-selected-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalDesktopTheme\assets\images\minimal\down-arrow-disabled-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalDesktopTheme\assets\images\minimal\down-arrow-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalDesktopTheme\assets\images\minimal\focus-indicator-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalDesktopTheme\assets\images\minimal\header-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalDesktopTheme\assets\images\minimal\inset-background-disabled-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalDesktopTheme\assets\images\minimal\inset-background-focus-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalDesktopTheme\assets\images\minimal\inset-background-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalDesktopTheme\assets\images\minimal\left-arrow-disabled-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalDesktopTheme\assets\images\minimal\left-arrow-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalDesktopTheme\assets\images\minimal\list-accessory-drill-down-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalDesktopTheme\assets\images\minimal\list-background-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalDesktopTheme\assets\images\minimal\list-inset-background-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalDesktopTheme\assets\images\minimal\page-indicator-normal-disabled-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalDesktopTheme\assets\images\minimal\page-indicator-normal-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalDesktopTheme\assets\images\minimal\page-indicator-selected-disabled-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalDesktopTheme\assets\images\minimal\page-indicator-selected-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalDesktopTheme\assets\images\minimal\pf_ronda_seven_0.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalDesktopTheme\assets\images\minimal\picker-list-disabled-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalDesktopTheme\assets\images\minimal\picker-list-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalDesktopTheme\assets\images\minimal\picker-list-selected-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalDesktopTheme\assets\images\minimal\radio-disabled-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalDesktopTheme\assets\images\minimal\radio-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalDesktopTheme\assets\images\minimal\radio-selected-disabled-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalDesktopTheme\assets\images\minimal\radio-selected-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalDesktopTheme\assets\images\minimal\right-arrow-disabled-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalDesktopTheme\assets\images\minimal\right-arrow-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalDesktopTheme\assets\images\minimal\scrollbar-thumb-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalDesktopTheme\assets\images\minimal\search-icon-disabled.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalDesktopTheme\assets\images\minimal\search-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalDesktopTheme\assets\images\minimal\tab-disabled-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalDesktopTheme\assets\images\minimal\tab-selected-disabled-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalDesktopTheme\assets\images\minimal\tab-selected-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalDesktopTheme\assets\images\minimal\tab-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalDesktopTheme\assets\images\minimal\thumb-disabled-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalDesktopTheme\assets\images\minimal\thumb-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalDesktopTheme\assets\images\minimal\toolbar-button-disabled-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalDesktopTheme\assets\images\minimal\toolbar-button-down-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalDesktopTheme\assets\images\minimal\toolbar-button-selected-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalDesktopTheme\assets\images\minimal\toolbar-button-up-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalDesktopTheme\assets\images\minimal\up-arrow-disabled-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalDesktopTheme\assets\images\minimal\up-arrow-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalDesktopTheme\assets\images\minimal_desktop.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalDesktopTheme\assets\images\minimal_desktop.tps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalDesktopTheme\assets\images\minimal_desktop.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalDesktopTheme\source\feathers\themes\BaseMinimalDesktopTheme.as" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalDesktopTheme\source\feathers\themes\MinimalDesktopTheme.as" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalDesktopTheme\source\feathers\themes\MinimalDesktopThemeWithAssetManager.as" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalDesktopTheme\swc\MinimalDesktopTheme.swc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalMobileTheme\README.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalMobileTheme\assets\fonts\pf_ronda_seven.fnt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalMobileTheme\assets\images\Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalMobileTheme\assets\images\minimal\Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalMobileTheme\assets\images\minimal\button-back-disabled-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalMobileTheme\assets\images\minimal\button-back-down-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalMobileTheme\assets\images\minimal\button-back-up-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalMobileTheme\assets\images\minimal\button-call-to-action-up-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalMobileTheme\assets\images\minimal\button-danger-down-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalMobileTheme\assets\images\minimal\button-danger-up-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalMobileTheme\assets\images\minimal\button-disabled-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalMobileTheme\assets\images\minimal\button-down-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalMobileTheme\assets\images\minimal\button-forward-disabled-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalMobileTheme\assets\images\minimal\button-forward-down-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalMobileTheme\assets\images\minimal\button-forward-up-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalMobileTheme\assets\images\minimal\button-selected-disabled-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalMobileTheme\assets\images\minimal\button-selected-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalMobileTheme\assets\images\minimal\button-up-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalMobileTheme\assets\images\minimal\callout-arrow-bottom.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalMobileTheme\assets\images\minimal\callout-arrow-left.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalMobileTheme\assets\images\minimal\callout-arrow-right.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalMobileTheme\assets\images\minimal\callout-arrow-top.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalMobileTheme\assets\images\minimal\callout-background-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalMobileTheme\assets\images\minimal\check-disabled-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalMobileTheme\assets\images\minimal\check-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalMobileTheme\assets\images\minimal\check-selected-disabled-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalMobileTheme\assets\images\minimal\check-selected-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalMobileTheme\assets\images\minimal\drop-down-arrow-icon-disabled.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalMobileTheme\assets\images\minimal\drop-down-arrow-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalMobileTheme\assets\images\minimal\header-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalMobileTheme\assets\images\minimal\inset-background-disabled-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalMobileTheme\assets\images\minimal\inset-background-focus-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalMobileTheme\assets\images\minimal\inset-background-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalMobileTheme\assets\images\minimal\list-accessory-drill-down-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalMobileTheme\assets\images\minimal\list-item-down.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalMobileTheme\assets\images\minimal\list-item-selected.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalMobileTheme\assets\images\minimal\list-item-up.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalMobileTheme\assets\images\minimal\page-indicator-normal-disabled-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalMobileTheme\assets\images\minimal\page-indicator-normal-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalMobileTheme\assets\images\minimal\page-indicator-selected-disabled-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalMobileTheme\assets\images\minimal\page-indicator-selected-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalMobileTheme\assets\images\minimal\pf_ronda_seven_0.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalMobileTheme\assets\images\minimal\picker-list-item-selected-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalMobileTheme\assets\images\minimal\radio-disabled-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalMobileTheme\assets\images\minimal\radio-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalMobileTheme\assets\images\minimal\radio-selected-disabled-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalMobileTheme\assets\images\minimal\radio-selected-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalMobileTheme\assets\images\minimal\scrollbar-thumb-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalMobileTheme\assets\images\minimal\search-icon-disabled.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalMobileTheme\assets\images\minimal\search-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalMobileTheme\assets\images\minimal\tab-down-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalMobileTheme\assets\images\minimal\tab-selected-disabled-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalMobileTheme\assets\images\minimal\tab-selected-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalMobileTheme\assets\images\minimal\thumb-disabled-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalMobileTheme\assets\images\minimal\thumb-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalMobileTheme\assets\images\minimal\toolbar-button-disabled-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalMobileTheme\assets\images\minimal\toolbar-button-down-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalMobileTheme\assets\images\minimal\toolbar-button-selected-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalMobileTheme\assets\images\minimal\toolbar-button-up-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalMobileTheme\assets\images\minimal_mobile.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalMobileTheme\assets\images\minimal_mobile.tps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalMobileTheme\assets\images\minimal_mobile.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalMobileTheme\source\feathers\themes\BaseMinimalMobileTheme.as" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalMobileTheme\source\feathers\themes\MinimalMobileTheme.as" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalMobileTheme\source\feathers\themes\MinimalMobileThemeWithAssetManager.as" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\client\themes\MinimalMobileTheme\swc\MinimalMobileTheme.swc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\server\.idea\.rakeTasks" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\server\.idea\compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\server\.idea\copyright\profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\server\.idea\encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\server\.idea\misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\server\.idea\modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\server\.idea\scopes\scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\server\.idea\vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\server\.idea\workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\server\auto.sqlite3" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Igor\project\autoparser\server\autos.sqlite3" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/parser.rb" afterPath="$PROJECT_DIR$/server/parser.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="temp.iws" />
@@ -447,7 +24,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/autoparser@Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1427737529578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/server/" MODULE_NAME="server" />
+    <SUITE FILE_PATH="coverage/autoparser@Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1428180871447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/server/" MODULE_NAME="server" />
     <SUITE FILE_PATH="coverage/temp@Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1423687034697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/server/autoparser" MODULE_NAME="server" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -463,6 +40,32 @@
         <option name="myItemId" />
         <option name="myItemType" value="com.intellij.database.view.DbRootNodeDescriptor" />
       </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="SQLite - [3]" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DbRootNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="SQLite - [3]" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="autos" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
     </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
@@ -475,11 +78,45 @@
         <entry file="file://$PROJECT_DIR$/server/parser.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="115" column="54" selection-start-line="115" selection-start-column="54" selection-end-line="115" selection-end-column="54" />
+              <caret line="129" column="0" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
               <folding>
                 <element signature="n#BaseParser#0;n#!!top" expanded="false" />
-                <element signature="n#AvitoRuParser#0;n#!!top" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.rb" pinned="false" current-in-tab="false">
+        <entry file="file://C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sinatra-1.4.6/lib/sinatra/base.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="1089" column="0" selection-start-line="1089" selection-start-column="0" selection-end-line="1089" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="path_traversal.rb" pinned="false" current-in-tab="false">
+        <entry file="file://C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/rack-protection-1.5.3/lib/rack/protection/path_traversal.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="autos" pinned="false" current-in-tab="true">
+        <entry file="dbDummy://dbtable:/147d6893/996050b4-593c-4253-9fbb-23020e16d3fb/..autos">
+          <provider editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -504,10 +141,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1722973">
+            <state vertical-scroll-proportion="0.0">
               <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
@@ -534,26 +171,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/Gemfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Rakefile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/Rakefile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -572,9 +189,9 @@
         <option value="$PROJECT_DIR$/src/FirstWindow.as" />
         <option value="$PROJECT_DIR$/server/autoparser/parser.rb" />
         <option value="$PROJECT_DIR$/server/autoparser/app.rb" />
-        <option value="$PROJECT_DIR$/server/parser.rb" />
         <option value="$PROJECT_DIR$/server/config/database.yml" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/server/parser.rb" />
       </list>
     </option>
   </component>
@@ -588,7 +205,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1932" />
+    <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -614,7 +231,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -623,8 +239,19 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="autoparser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
@@ -643,7 +270,7 @@
     <property name="project.structure.side.proportion" value="0.20253165" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/server/auto.db" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -1080,7 +707,10 @@
       <workItem from="1423686071529" duration="2184000" />
       <workItem from="1427732225849" duration="3518000" />
       <workItem from="1427737716083" duration="233000" />
-      <workItem from="1428141784364" duration="114000" />
+      <workItem from="1428141784364" duration="3495000" />
+      <workItem from="1428177088034" duration="1484000" />
+      <workItem from="1428178909597" duration="2076000" />
+      <workItem from="1428222007491" duration="902000" />
     </task>
     <task id="LOCAL-00001" summary="created client">
       <created>1423689243711</created>
@@ -1094,28 +724,39 @@
       <option name="project" value="LOCAL" />
       <updated>1428141857773</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="deleted client">
+      <created>1428141910816</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1428141910816</updated>
+    </task>
+    <task id="LOCAL-00004" summary="created database.yml">
+      <created>1428141932687</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1428141932687</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10354000" />
+    <option name="totallyTimeSpent" value="18197000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1932" height="1056" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32900432" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3381535" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.08226496" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17948718" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.08208955" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17910448" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1125,8 +766,9 @@
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850778" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1145,12 +787,16 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="created client" />
-    <option name="LAST_COMMIT_MESSAGE" value="created client" />
+    <MESSAGE value="deleted client" />
+    <MESSAGE value="created database.yml" />
+    <option name="LAST_COMMIT_MESSAGE" value="created database.yml" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="9" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1159,13 +805,165 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="dbDummy://dbtable:/147d6893/996050b4-593c-4253-9fbb-23020e16d3fb/..autos">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/config/database.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/db/migrate/20150128043324_create_auto.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/app.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/Rakefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/parser.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#BaseParser#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/996050b4-593c-4253-9fbb-23020e16d3fb/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/147d6893/996050b4-593c-4253-9fbb-23020e16d3fb/..autos">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/config/database.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/db/migrate/20150128043324_create_auto.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/app.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/Rakefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/server/parser.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="115" column="54" selection-start-line="115" selection-start-column="54" selection-end-line="115" selection-end-column="54" />
           <folding>
             <element signature="n#BaseParser#0;n#!!top" expanded="false" />
-            <element signature="n#AvitoRuParser#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1222,7 +1020,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1232,7 +1029,6 @@
           <caret line="115" column="54" selection-start-line="115" selection-start-column="54" selection-end-line="115" selection-end-column="54" />
           <folding>
             <element signature="n#BaseParser#0;n#!!top" expanded="false" />
-            <element signature="n#AvitoRuParser#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1289,7 +1085,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1299,7 +1094,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#BaseParser#0;n#!!top" expanded="false" />
-            <element signature="n#AvitoRuParser#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1324,7 +1118,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1340,23 +1133,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/app.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/db/migrate/20150128043324_create_auto.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1375,17 +1151,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/parser.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="115" column="54" selection-start-line="115" selection-start-column="54" selection-end-line="115" selection-end-column="54" />
-          <folding>
-            <element signature="n#BaseParser#0;n#!!top" expanded="false" />
-            <element signature="n#AvitoRuParser#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1396,9 +1161,71 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1722973">
+        <state vertical-scroll-proportion="0.0">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/app.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sinatra-1.4.6/lib/sinatra/base.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1089" column="0" selection-start-line="1089" selection-start-column="0" selection-end-line="1089" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/996050b4-593c-4253-9fbb-23020e16d3fb/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/rack-protection-1.5.3/lib/rack/protection/path_traversal.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/db/migrate/20150128043324_create_auto.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/parser.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="129" column="0" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
+          <folding>
+            <element signature="n#BaseParser#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/147d6893/996050b4-593c-4253-9fbb-23020e16d3fb/..autos">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
