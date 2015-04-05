@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150128043324) do
+ActiveRecord::Schema.define(version: 20150405090212) do
 
   create_table "autos", force: :cascade do |t|
     t.text     "maker"
@@ -35,6 +35,15 @@ ActiveRecord::Schema.define(version: 20150128043324) do
     t.text     "body"
     t.text     "steering_wheel"
     t.text     "gearbox"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "users", force: :cascade do |t|
+    t.text     "name"
+    t.text     "password"
+    t.integer  "requests"
+    t.integer  "demo"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

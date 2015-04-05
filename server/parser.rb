@@ -6,18 +6,17 @@ require 'sinatra/activerecord'
 require 'sqlite3'
 require 'json'
 require 'yaml'
+require 'redis'
 
-#set :database, {adapter: "sqlite3", database: "auto.sqlite3"}
 set :database_file, "config/database.yml"
+
+redis = Redis.new
 
 class Auto  < ActiveRecord::Base
 end
 
-class Model < ActiveRecord::Base
-  belongs_to :maker
-end
+class User < ActiveRecord::Base
 
-class Maker < ActiveRecord::Base
 end
 
 class BaseParser
@@ -142,39 +141,39 @@ class AutoruParser < BaseParser
   end
 
   def load_makers
-    @url = "http://auto.ru/#all"
-    page = Nokogiri.HTML(open(@url))
-    makers = page.css('.marks-col-a').map{|item|
-      {item:item.text.to_s.lstrip.rstrip, autoruname: item['href'].gsub('/cars/','').gsub('/all/','')}
-    }.sort_by{|item| item['item']}.uniq
-    makers.each{|maker|
-      if Maker.find_by(maker: maker['item']).nil?
-        _maker = Maker.create! maker: maker[:item], autoru: 1, autoruname: maker[:autoruname]
-      end
-    }
-    makers
+    # @url = "http://auto.ru/#all"
+    # page = Nokogiri.HTML(open(@url))
+    # makers = page.css('.marks-col-a').map{|item|
+    #   {item:item.text.to_s.lstrip.rstrip, autoruname: item['href'].gsub('/cars/','').gsub('/all/','')}
+    # }.sort_by{|item| item['item']}.uniq
+    # makers.each{|maker|
+    #   if Maker.find_by(maker: maker['item']).nil?
+    #     _maker = Maker.create! maker: maker[:item], autoru: 1, autoruname: maker[:autoruname]
+    #   end
+    # }
+    # makers
   end
 
   def load_models maker
-    _maker = maker.autoruname
-    maker_id = maker.id
-    @url = "http://auto.ru/cars/#{maker.autoruname}/all"
-    page = Nokogiri.HTML(open(@url))
-    models = page.css('.showcase-modify-title-link').map {|item|
-      name = item['href'].gsub('/cars/','').gsub('/all/','').gsub(maker.autoruname+'/','')
-                 #.sort_by{|item| item[:item]}
-     _item = item.text.to_s.lstrip.rstrip
-    {item: _item, autoruname: name}
-    }
-    models.each{|model|
-      if Model.where("lower(model) = ? AND maker_id = ?",model[:item].downcase,maker_id).to_a.empty?
-        _model = Model.create! maker_id: maker_id, model: model[:item], autoruname: model[:autoruname]
-      else
-        _model = Model.where("lower(model) = ? AND maker_id = ?",model[:item].downcase,maker_id).to_a.first
-        _model[:autoruname] = model[:autoruname]
-        _model.save!
-      end
-    }
+    # _maker = maker.autoruname
+    # maker_id = maker.id
+    # @url = "http://auto.ru/cars/#{maker.autoruname}/all"
+    # page = Nokogiri.HTML(open(@url))
+    # models = page.css('.showcase-modify-title-link').map {|item|
+    #   name = item['href'].gsub('/cars/','').gsub('/all/','').gsub(maker.autoruname+'/','')
+    #              #.sort_by{|item| item[:item]}
+    #  _item = item.text.to_s.lstrip.rstrip
+    # {item: _item, autoruname: name}
+    # }
+    # models.each{|model|
+    #   if Model.where("lower(model) = ? AND maker_id = ?",model[:item].downcase,maker_id).to_a.empty?
+    #     _model = Model.create! maker_id: maker_id, model: model[:item], autoruname: model[:autoruname]
+    #   else
+    #     _model = Model.where("lower(model) = ? AND maker_id = ?",model[:item].downcase,maker_id).to_a.first
+    #     _model[:autoruname] = model[:autoruname]
+    #     _model.save!
+    #   end
+    # }
   end
 end
 
@@ -280,32 +279,6 @@ end
 
 autoparser = AutoruParser.new
 avitoParser = AvitoRuParser.new
-# # data = Maker.all.map{|maker|
-#   {'maker'=>maker['maker'], 'id'=>maker.id, 'models'=>[Model.where(maker_id:maker.id).map{|model| {'model'=>model['model'], 'ids'=>{'auto'=>[model['autoruname']],'avito'=>[model['avitoname']]} } }] }
-# }
-# File.open('config/makers.yaml','w'){|file| file.write(data.to_yaml)}
-# get get'/' do
-#   parser.load_makers
-#   Maker.all.to_json
-# end
-#
-# get '/models.json' do
-#   Model.all.to_json
-# end
-#
-# get '/makers' do
-#   Maker.all.to_json
-# end
-#
-# get '/update' do
-#   parser.load_makers
-#   avitoParser.load_makers
-#   makers = Maker.all
-#   makers.each {|maker|
-#     parser.load_models maker
-#     avitoParser.load_models maker
-#   }
-# end
 
 makers = YAML.load(File.read('config/makers.yaml', :encoding => 'utf-8'))['cars']
 
@@ -334,4 +307,17 @@ get '/cars/:maker/:model' do
   Auto.where(:maker => params[:maker], :model => params[:model]).map{|car|
     car.attributes.delete_if { |k, v| v.nil? }
   }.to_json
+end
+
+get '/users/create' do
+
+end
+
+get '/users/:user_id/select' do
+  params[:user_id]
+  redis.set("user_#{params[:user_id]}", "foo")
+end
+
+get '/users/:user_id/get_selection' do
+  redis.get("user_#{params[:user_id]}")
 end
