@@ -3,32 +3,21 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$" />
-    <orderEntry type="jdk" jdkName="ruby-2.1.5-p273" jdkType="RUBY_SDK" />
+    <orderEntry type="jdk" jdkName="RVM: ruby-2.2.1 [global]" jdkType="RUBY_SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" scope="PROVIDED" name="activemodel (v4.2.0, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="activerecord (v4.2.0, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="activesupport (v4.2.0, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="arel (v6.0.0, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="builder (v3.2.2, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="bundler (v1.7.7, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="daemons (v1.1.9, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="eventmachine (v1.0.7, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="i18n (v0.7.0, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="json (v1.8.2, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="mini_portile (v0.6.2, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="minitest (v5.5.1, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="mysql2 (v0.3.18, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="nokogiri (v1.6.6.2, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rack (v1.6.0, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rack-protection (v1.5.3, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rake (v10.4.2, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="redis (v3.2.1, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="sinatra (v1.4.5, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="sinatra-activerecord (v2.0.5, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="sqlite3 (v1.3.10, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="thin (v1.6.3, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="thread_safe (v0.3.4, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="tilt (v1.4.1, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="tzinfo (v1.2.2, ruby-2.1.5-p273) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="activemodel (v4.2.0, RVM: ruby-2.2.1 [global]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="activerecord (v4.2.0, RVM: ruby-2.2.1 [global]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="activesupport (v4.2.0, RVM: ruby-2.2.1 [global]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="arel (v6.0.0, RVM: ruby-2.2.1 [global]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="builder (v3.2.2, RVM: ruby-2.2.1 [global]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="bundler (v1.9.4, RVM: ruby-2.2.1 [global]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="daemons (v1.1.9, RVM: ruby-2.2.1 [global]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="eventmachine (v1.0.7, RVM: ruby-2.2.1 [global]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="i18n (v0.7.0, RVM: ruby-2.2.1 [global]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="json (v1.8.2, RVM: ruby-2.2.1 [global]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="mini_portile (v0.6.2, RVM: ruby-2.2.1 [global]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="minitest (v5.5.1, RVM: ruby-2.2.1 [global]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="thread_safe (v0.3.4, RVM: ruby-2.2.1 [global]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="tzinfo (v1.2.2, RVM: ruby-2.2.1 [global]) [gem]" level="application" />
   </component>
 </module>
