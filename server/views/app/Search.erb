@@ -1,0 +1,18 @@
+<% @makers.each {|maker| %>
+    <div class="row">
+        <div class="col-md-5">
+            <%= maker['maker'] %>
+        </div>
+    </div>
+    <% maker['models'][0].each { |model| %>
+        <div class="row">
+            <div class="col-md-3">
+                <%= model['model'] %>
+            </div>
+            <div class="col-md-5">
+                <%= model['model'] %>
+            </div>
+        </div>
+    <% } %>
+<% } %>
+

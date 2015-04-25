@@ -2,11 +2,8 @@ require 'sinatra'
 require 'sinatra/activerecord'
 require 'nokogiri'
 require 'open-uri'
-require 'eventmachine'
-require 'em-http-request'
 require 'json'
 require 'thin'
-require 'chronic'
 require './parser'
 
 # class AvitoRuParser<BaseParser

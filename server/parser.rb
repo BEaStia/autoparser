@@ -8,8 +8,14 @@ require 'json'
 require 'yaml'
 require 'redis'
 
-set :database_file, "config/database.yml"
-
+# set :database_file, "config/database.yml"
+ActiveRecord::Base.establish_connection(
+    :adapter  => "mysql2",
+    :host     => "127.0.0.1",
+    :username => "root",
+    :password => "111",
+    :database => "cars"
+)
 redis = Redis.new
 
 class Auto  < ActiveRecord::Base
@@ -282,7 +288,23 @@ avitoParser = AvitoRuParser.new
 
 makers = YAML.load(File.read('config/makers.yaml', :encoding => 'utf-8'))['cars']
 
+use Rack::Session::Cookie, :key => 'rack.session',
+    :domain => 'localhost',
+    :path => '/',
+    :expire_after => 2592000, # In seconds
+    :secret => 'fuck_you'
+
+use Rack::Auth::Basic, "Restricted Area" do |username, password|
+  username == 'admin' and password == 'admin'
+end
+
+set :public_folder, Proc.new { File.join(root, "public") }
+
 get '/' do
+  makers.to_json
+end
+
+get '/makers' do
   makers.to_json
 end
 
@@ -320,4 +342,15 @@ end
 
 get '/users/:user_id/get_selection' do
   redis.get("user_#{params[:user_id]}")
+end
+
+get '/app' do
+  erb :app
+end
+
+get '/app/:view' do
+  view = 'app/' + params[:view] + '.erb'
+  @makers = makers
+  content = File.read(File.join(settings.views, view))
+  erb content, { :layout => false }
 end
