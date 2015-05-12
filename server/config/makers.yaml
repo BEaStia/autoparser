@@ -1,6 +1,11 @@
 ﻿cars:
   - maker: Audi
     id: 1
+    ids:
+      auto:
+      - 'audi'
+      avito:
+      - 'audi'
     models:
     - - model: '100'
         ids:
@@ -245,6 +250,11 @@
           - ''
   - maker: BMW
     id: 2
+    ids:
+      auto:
+      - 'bmw'
+      avito:
+      - 'bmw'
     models:
     - - model: 02 (E10)
         ids:
@@ -470,6 +480,11 @@
           - activehybrid_7
   - maker: "ВАЗ"
     id: 40
+    ids:
+      auto:
+      - 'vaz'
+      avito:
+      - 'vaz_lada'
     models:
     - - model: 1111 Ока
         ids:
@@ -636,6 +651,11 @@
           -
   - maker: "ГАЗ"
     id: 41
+    ids:
+      auto:
+      - 'gaz'
+      avito:
+      - 'gaz'
     models:
     - - model: 13 «Чайка»
         ids:

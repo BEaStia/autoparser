@@ -84,15 +84,22 @@ class AutoruParser < BaseParser
   end
   def prepare_url maker,model,page = 1
     used = "used"
-    url = URI.join(@remote_base_url,"/cars/",maker+"/",model+"/",used)
-    params = {:p => page, :output_type => "table"}
-    params["sort[set_date]"] = 'desc'
-    url.query = URI.encode_www_form params
-    p url
-    url
+    if maker.nil? || model.nil? || @remote_base_url.nil? || used.nil?
+      p "fuck"
+    else
+      url = URI(@remote_base_url+"/cars/"+maker+"/"+model+"/"+used)
+      params = {:p => page, :output_type => "table"}
+      params["sort[set_date]"] = 'desc'
+      url.query = URI.encode_www_form params
+      p url
+      url
+    end
+
+
   end
 
   def get_url url
+    p url
     Nokogiri.HTML(open(url))
   end
 
@@ -121,6 +128,7 @@ class AutoruParser < BaseParser
     #TODO: create full set of properties for car
     count = 0
     if Auto.find_by(uid: id).nil?
+      begin
       url = "http://auto.ru/cars/used/sale/" + id
       html_code = get_url url
       _hp = html_code.css('.card-info-value')[3].text.split('/')[1]
@@ -128,7 +136,9 @@ class AutoruParser < BaseParser
       body = html_code.css('.card-info-value')[2].text
       steering_wheel = html_code.css('.card-info-value')[7].text
       wd = html_code.css('.card-info-value')[5].text
-      color = html_code.css('.card-color')[0]['style'].split(';').first.split(':').last
+
+        color = html_code.css('.card-color')[0]['style'].split(';').first.split(':').last
+
 
       #getting phones
       url = "http://auto.ru/cars/used/sale/get_phones/" + id
@@ -138,7 +148,11 @@ class AutoruParser < BaseParser
                           town: place, uid: id, new: 1, fuel: fuel, volume: volume, gearbox: gearbox, hp: hp, color: color,
                           steering_wheel: steering_wheel, body: body, wd: wd, phone: phone
 
+
       count += 1
+      rescue NoMethodError => e
+        print "error in #{url}"
+      end
       "new"
     else
       "old"
@@ -308,6 +322,29 @@ get '/makers' do
   makers.to_json
 end
 
+get '/update/auto' do
+  arr = makers.each{|maker|
+    models = maker['models'][0].each {|model|
+      count = 0
+      if !model['ids']['auto'].first.nil?
+        (0..200).each{|page|
+          begin
+             url = autoparser.prepare_url maker['ids']['auto'].first, model['ids']['auto'].first, page
+             xml = autoparser.get_url(url)
+          rescue OpenURI::HTTPError => e
+            print "page #{url} not found"
+            break
+          end
+          current_count = autoparser.parse(xml, maker['ids']['auto'].first, model['ids']['auto'].first)
+          break if current_count.eql?(0)
+          count += current_count
+        }
+      end
+    }
+  }
+  arr.to_json
+end
+
 get '/load/auto/:maker/:model' do
   count = 0
   (0..200).each{|page|
@@ -326,6 +363,7 @@ get '/load/auto/:maker/:model' do
 end
 
 get '/cars/:maker/:model' do
+
   Auto.where(:maker => params[:maker], :model => params[:model]).map{|car|
     car.attributes.delete_if { |k, v| v.nil? }
   }.to_json

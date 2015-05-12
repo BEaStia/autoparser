@@ -14,36 +14,36 @@
 ActiveRecord::Schema.define(version: 20150405090212) do
 
   create_table "autos", force: :cascade do |t|
-    t.text     "maker"
-    t.text     "model"
-    t.integer  "year"
-    t.integer  "price"
-    t.text     "town"
-    t.integer  "milage"
-    t.text     "short_description"
-    t.text     "uid"
-    t.boolean  "new"
-    t.boolean  "active"
+    t.text     "maker",             limit: 65535
+    t.text     "model",             limit: 65535
+    t.integer  "year",              limit: 4
+    t.integer  "price",             limit: 4
+    t.text     "town",              limit: 65535
+    t.integer  "milage",            limit: 4
+    t.text     "short_description", limit: 65535
+    t.text     "uid",               limit: 65535
+    t.boolean  "new",               limit: 1
+    t.boolean  "active",            limit: 1
     t.datetime "posted_at"
-    t.text     "phone"
-    t.text     "description"
-    t.text     "color"
-    t.float    "volume"
-    t.integer  "hp"
-    t.text     "wd"
-    t.text     "fuel"
-    t.text     "body"
-    t.text     "steering_wheel"
-    t.text     "gearbox"
+    t.text     "phone",             limit: 65535
+    t.text     "description",       limit: 65535
+    t.text     "color",             limit: 65535
+    t.float    "volume",            limit: 24
+    t.integer  "hp",                limit: 4
+    t.text     "wd",                limit: 65535
+    t.text     "fuel",              limit: 65535
+    t.text     "body",              limit: 65535
+    t.text     "steering_wheel",    limit: 65535
+    t.text     "gearbox",           limit: 65535
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
   create_table "users", force: :cascade do |t|
-    t.text     "name"
-    t.text     "password"
-    t.integer  "requests"
-    t.integer  "demo"
+    t.text     "name",       limit: 65535
+    t.text     "password",   limit: 65535
+    t.integer  "requests",   limit: 4
+    t.integer  "demo",       limit: 4
     t.datetime "created_at"
     t.datetime "updated_at"
   end

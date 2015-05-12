@@ -7,7 +7,7 @@
     <% maker['models'][0].each { |model| %>
         <div class="row">
             <div class="col-md-3">
-                <%= model['model'] %>
+                <a href="/cars/<%= maker['maker'] %>/<%= model['model'] %>"><%= model['model'] %></a>
             </div>
             <div class="col-md-5">
                 <%= model['model'] %>
